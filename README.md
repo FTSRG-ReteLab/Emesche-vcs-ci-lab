@@ -23,3 +23,5 @@ First, the reference speed and the joystick is both at zero. At the first time u
 --* Belső elem
 
 [Inline link](www.google.hu)
+
+#Bug fix
