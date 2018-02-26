@@ -1,7 +1,6 @@
 package hu.bme.mit.train.sensor;
 
 import hu.bme.mit.train.interfaces.TrainController;
-
 import hu.bme.mit.train.interfaces.TrainUser;
 
 public class TrainSensorImpl implements TrainSensor {
