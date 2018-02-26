@@ -8,13 +8,13 @@ import java.util.Date;
 
 
 public class Tachograph {
-    Table<Date, Integer, Integer> table;
+    Table<Long, Integer, Integer> table;
 
     public Tachograph(){
         table = HashBasedTable.create();
     }
 
-    public void addElement(Time ido, int position, int speed){
+    public void addElement(Long ido, int position, int speed){
         table.put(ido, position, speed);
     }
 
