@@ -43,10 +43,13 @@ public class TrainControllerImpl implements TrainController {
 
 	@Override
 	public void setJoystickPosition(int joystickPosition) {
-		this.step = joystickPosition;		
-		for( int i = 0; i > 0; i++) {
+		this.step = joystickPosition;
+		/*
+		for (int i = 0; i < 10; i++){
 			followSpeed();
 		}
+		*/
+			
 	}
 
 }
